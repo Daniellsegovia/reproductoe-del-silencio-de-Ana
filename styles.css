@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#000;
+}
+a{
+    text-decoration: none;
+    
+    /* aca comienza la seccion del navbar */
+}
+header{
+    background: #041b27;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px;
+    height: 100px;
+
+}
+.nav-bar .logo img{
+    width: 150px;
+}
+
+.links-social {
+    display: flex;
+}
+.links-social li{
+    list-style: none;
+    padding: 5px;
+}
+
+.icon-social{
+    color: aliceblue;
+    font-size: 30px;
+    padding: 0 25px;
+}
+.icon-social:hover{
+    color: rgb(175, 184, 192);
+}
+/* aca comienza la seccion del hero */
+main .hero .container-hero{
+    width: 90%;
+    margin: 0 auto;
+    display: inline;
+    justify-content:center;
+    align-self: center;
+    margin-top: 3em;
+}
+main .hero{
+    font-size: 30px;
+    min-height: 17em;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0, .60), rgba(0,0,0,.60)), url(img/hero-min.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2em;
+    display: flex;
+}
+.container-hero h3{
+    margin: 0 auto;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 0.3em;
+    font-weight: 500;
+}
+.container-hero .description{
+    padding-top: 4em;
+    font-size: 0.9em;
+    font-weight: 100;
+
+}
