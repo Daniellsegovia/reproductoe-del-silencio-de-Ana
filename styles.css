@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background:#000;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%230a0d14' fill-opacity='1'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
 }
 a{
     text-decoration: none;
@@ -12,7 +13,7 @@ a{
     /* aca comienza la seccion del navbar */
 }
 header{
-    background: #041b27;
+    background:#0a0d14;
 }
 .nav-bar{
     display: flex;
@@ -59,7 +60,7 @@ main .hero{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 2em;
+    /* margin-bottom:20px; */
     display: flex;
 }
 .container-hero h3{
@@ -77,3 +78,28 @@ main .hero{
     font-weight: 100;
 
 }
+/* aca comienza la seccion del reproductor */
+.title h3{
+    color:#f2f2f2;
+    text-align: center;
+    font-size: 40px;
+    /* margin-bottom: 10px; */
+}
+.title{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px 0 ;
+}
+.main-container-video video{
+    width: 95%;
+    height: 400px;
+}
+
