@@ -56,7 +56,7 @@ main .hero{
     font-size: 30px;
     min-height: 17em;
     color: #fff;
-    background: linear-gradient(rgba(0,0,0, .60), rgba(0,0,0,.60)), url(img/hero-min.jpg);
+    background: linear-gradient(rgba(0,0,0, .60), rgba(0,0,0,.60)), url(../img/hero-min.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
